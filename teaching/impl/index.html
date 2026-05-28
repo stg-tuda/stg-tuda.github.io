@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="Implementation of Programming Languages (IMPL) - Software Technology Group">
+    <meta name="author" content="">
+
+    <title>Implementation of Programming Languages (IMPL)</title>
+  <link rel="icon" type="image/svg+xml" href="../../icons/logos/stg-logo.svg"/>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="../../css/style.css" rel="stylesheet">
+
+</head>
+
+
+<body class="site-body has-fixed-header">
+<header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm fixed-top">
+      <div class="container align-items-center">
+              <a class="navbar-brand fw-bold d-flex align-items-center gap-2" href="../../index.html">
+        <span>STG</span>
+      </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCourse" aria-controls="navbarCourse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+                                <div class="collapse navbar-collapse justify-content-end" id="navbarCourse">
+          <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-3">
+            <li class="nav-item"><a class="nav-link" href="../../index.html">Back to STG</a></li>
+          </ul>
+        </div>
+
+      </div>
+    </nav>
+</header>
+
+<main id="top" class="container py-5" role="main">
+
+    <div class="container" id="banner">
+        <br><br><br>
+    </div>
+    <div class="clearfix"></div>
+    <div class="container" id="mission">
+    
+        <h1>Implementation of Programming Languages (IMPL)</h1>
+        
+        <p>Get familiar with cutting-edge programming concepts and programming language research from academic papers, with a focus on functional programming. In the project, each student will write a program according to a given topic, with regular meetings with a supervisor.</p>
+        
+        <p>The topics of IMPL change every semester, in general the topics are about the design and implementation of abstractions, such as domain-specific programming languages or other concepts that facilitate programming, for example for distributed computing concepts, functional programming, or using dependent types to make programs error-free. You don't necessarily need to have much experience in functional programming yet (Scala, Haskell, Lean, Coq, Agda, …), but you must be interested and eager to learn it, and some affinity for mathematically-structured, systematic thinking would be useful.</p>
+        
+        <h3>Prerequisites:</h3>
+        <ul>
+            <li>It is recommended that you have completed the course "Concepts of Programming Languages" in order to get to know some functional programming beforehand. Further experience or a keen interest in functional programming is also helpful.</li>
+        </ul>
+        
+        <h3>Course Details:</h3>
+        <ul>
+            <li><strong>Turnus:</strong> Summer & Winter</li>
+            <li><strong>Kind:</strong> Pr 06cp</li>
+            <li><strong>In Tucan:</strong> 20-00-0306-pr Implementation of Programming Languages</li>
+        </ul>
+        
+        <h3>Resources:</h3>
+        <ul>
+            <li><a href="https://www.st.informatik.tu-darmstadt.de/teaching/impl/26summer/" target="_blank">IMPL 2026 Summer</a></li>
+        </ul>
+    
+        <br><br>
+    </div>
+    
+    <hr class="soft">
+
+  </main>
+  <footer>
+      <hr class="soft" id="legal">
+
+
+      <div class="container" id="sitefooter">
+    
+          <a href="https://www.informatik.tu-darmstadt.de/impressum.en.jsp">Legal info / Impressum</a>
+          <br><br>
+    
+          Technische Universität Darmstadt <br>
+          Fachbereich Informatik <br>
+          A2, Hochschulstraße 10 <br>
+          64289 Darmstadt<br>
+          Germany<br><br>
+
+
+      </div>
+
+  </footer>
+
+
+  <!-- place js at end for faster loading -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<script>
+    $(document).ready(function () {
+          $("#nav a").on('click', function (event) {
+
+              // Make sure this.hash has a value before overriding default behavior
+              if (this.hash !== "") {
+    
+                  // Prevent default anchor click behavior
+                  event.preventDefault();
+    
+                  // Store hash
+                  var hash = this.hash;
+    
+                  // Using jQuery's animate() method to add smooth page scroll
+                  // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+                  $('html, body').animate({
+                      scrollTop: $(hash).offset().top
+                  }, 800, function () {
+    
+                      // Add hash (#) to URL when done scrolling (default click behavior)
+                      window.location.hash = hash;
+                  });
+    
+              } // End if
+    
+          });
+      });
+  </script>
+
+
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB6xrY5kKwxlhKp0a0NhbbX6YsJhBKt3DJDnmoFVy38MVBnE+Ibb" crossorigin="anonymous"></script>
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    document.querySelectorAll('.navbar-toggler').forEach(function (toggler) {
+      toggler.addEventListener('click', function () {
+        var targetSelector = toggler.getAttribute('data-bs-target');
+        if (!targetSelector) return;
+        var target = document.querySelector(targetSelector);
+        if (!target) return;
+        var isOpen = target.classList.contains('show');
+        if (isOpen) {
+          target.classList.remove('show');
+        } else {
+          target.classList.add('show');
+        }
+        toggler.setAttribute('aria-expanded', String(!isOpen));
+      });
+    });
+  });
+</script>
+
+</body>
+</html>

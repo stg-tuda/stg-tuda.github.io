@@ -1,0 +1,1395 @@
+[
+  {
+    "cite": "haas2025think",
+    "title": "Think locally, act globally: A programming model for decentralized applications",
+    "authors": [
+      "Haas",
+      "Kuessner",
+      "Mogk",
+      "Mezini"
+    ],
+    "year": "2025",
+    "yearDisplay": "2025",
+    "journal": "IEEE Internet Computing",
+    "booktitle": "",
+    "publisher": "",
+    "howpublished": "",
+    "institution": "",
+    "organization": "",
+    "school": "",
+    "series": "",
+    "note": "",
+    "url": "",
+    "doi": "10.1109/mic.2025.3618947",
+    "typeLabel": "Journal article",
+    "image": "./images/aiml2020small.png",
+    "topics": [
+      "Programming Models",
+      "Decentralized Applications"
+    ],
+    "topicsNormalized": [
+      "programming-models",
+      "decentralized-applications"
+    ],
+    "position": 0
+  },
+  {
+    "cite": "maninger2025benchmarking",
+    "title": "Benchmarking web API integration code generation",
+    "authors": [
+      "Maninger",
+      "Chemnitz",
+      "Sharifloo",
+      "Brugger",
+      "Mezini"
+    ],
+    "year": "2025",
+    "yearDisplay": "2025",
+    "journal": "",
+    "booktitle": "AIWARE",
+    "publisher": "",
+    "howpublished": "",
+    "institution": "",
+    "organization": "",
+    "school": "",
+    "series": "",
+    "note": "",
+    "url": "",
+    "doi": "10.1109/aiware69974.2025.00034",
+    "typeLabel": "Conference paper",
+    "image": "./images/aiml2020small.png",
+    "topics": [
+      "Code Generation",
+      "Web APIs",
+      "AI"
+    ],
+    "topicsNormalized": [
+      "code-generation",
+      "web-apis",
+      "ai"
+    ],
+    "position": 1
+  },
+  {
+    "cite": "sharifloo2025where",
+    "title": "Where do LLMs still struggle? An in-depth analysis of code generation benchmarks",
+    "authors": [
+      "Sharifloo",
+      "Heydari",
+      "Kazerooni",
+      "Maninger",
+      "Mezini"
+    ],
+    "year": "2025",
+    "yearDisplay": "2025",
+    "journal": "",
+    "booktitle": "AIWARE",
+    "publisher": "",
+    "howpublished": "",
+    "institution": "",
+    "organization": "",
+    "school": "",
+    "series": "",
+    "note": "",
+    "url": "",
+    "doi": "10.1109/aiware69974.2025.00035",
+    "typeLabel": "Conference paper",
+    "image": "./images/aiml2020small.png",
+    "topics": [
+      "LLMs",
+      "Code Generation",
+      "Benchmarks"
+    ],
+    "topicsNormalized": [
+      "llms",
+      "code-generation",
+      "benchmarks"
+    ],
+    "position": 2
+  },
+  {
+    "cite": "brugger2025prompting",
+    "title": "Prompting neural-guided equation discovery based on residuals",
+    "authors": [
+      "Brugger",
+      "Pfanschilling",
+      "Richter",
+      "Mezini",
+      "Kramer"
+    ],
+    "year": "2025",
+    "yearDisplay": "2025",
+    "journal": "",
+    "booktitle": "DIS",
+    "publisher": "",
+    "howpublished": "",
+    "institution": "",
+    "organization": "",
+    "school": "",
+    "series": "",
+    "note": "",
+    "url": "",
+    "doi": "10.1007/978-3-032-05461-6_7",
+    "typeLabel": "Conference paper",
+    "image": "./images/aiml2020small.png",
+    "topics": [
+      "Equation Discovery",
+      "Neural Guidance"
+    ],
+    "topicsNormalized": [
+      "equation-discovery",
+      "neural-guidance"
+    ],
+    "position": 3
+  },
+  {
+    "cite": "costa2025scaling",
+    "title": "Scaling up: Revisiting mining android sandboxes at scale for malware classification (replication paper)",
+    "authors": [
+      "Costa",
+      "Medeiros",
+      "Oliveira",
+      "CalÃ¡ssio",
+      "BonifÃ¡cio",
+      "Narasimhan",
+      "Mezini",
+      "Ribeiro"
+    ],
+    "year": "2025",
+    "yearDisplay": "2025",
+    "journal": "",
+    "booktitle": "ECOOP",
+    "publisher": "",
+    "howpublished": "",
+    "institution": "",
+    "organization": "",
+    "school": "",
+    "series": "",
+    "note": "",
+    "url": "",
+    "doi": "10.4230/lipics.ecoop.2025.40",
+    "typeLabel": "Conference paper",
+    "image": "./images/aiml2020small.png",
+    "topics": [
+      "Android Malware",
+      "Static Analysis"
+    ],
+    "topicsNormalized": [
+      "android-malware",
+      "static-analysis"
+    ],
+    "position": 4
+  },
+  {
+    "cite": "verma2025codessm",
+    "title": "CodeSSM: Towards state space models for code understanding",
+    "authors": [
+      "Verma",
+      "Anand",
+      "Mezini"
+    ],
+    "year": "2025",
+    "yearDisplay": "2025",
+    "journal": "",
+    "booktitle": "EMNLP",
+    "publisher": "",
+    "howpublished": "",
+    "institution": "",
+    "organization": "",
+    "school": "",
+    "series": "",
+    "note": "",
+    "url": "",
+    "doi": "10.18653/v1/2025.emnlp-main.1735",
+    "typeLabel": "Conference paper",
+    "image": "./images/aiml2020small.png",
+    "topics": [
+      "State Space Models",
+      "Code Understanding"
+    ],
+    "topicsNormalized": [
+      "state-space-models",
+      "code-understanding"
+    ],
+    "position": 5
+  },
+  {
+    "cite": "sakharova2025integrating",
+    "title": "Integrating symbolic execution into the fine-tuning of code-generating LLMs",
+    "authors": [
+      "Sakharova",
+      "Anand",
+      "Mezini"
+    ],
+    "year": "2025",
+    "yearDisplay": "2025",
+    "journal": "",
+    "booktitle": "NAACL",
+    "publisher": "",
+    "howpublished": "",
+    "institution": "",
+    "organization": "",
+    "school": "",
+    "series": "",
+    "note": "",
+    "url": "",
+    "doi": "10.18653/v1/2025.naacl-srw.27",
+    "typeLabel": "Conference paper",
+    "image": "./images/aiml2020small.png",
+    "topics": [
+      "Symbolic Execution",
+      "LLMs",
+      "Code Generation"
+    ],
+    "topicsNormalized": [
+      "symbolic-execution",
+      "llms",
+      "code-generation"
+    ],
+    "position": 6
+  },
+  {
+    "cite": "mezini2025aiassisted",
+    "title": "AI-assisted programming: From intelligent code completion to foundation models: A twenty-year journey",
+    "authors": [
+      "Mezini"
+    ],
+    "year": "2025",
+    "yearDisplay": "2025",
+    "journal": "Software Engineering",
+    "booktitle": "",
+    "publisher": "",
+    "howpublished": "",
+    "institution": "",
+    "organization": "",
+    "school": "",
+    "series": "",
+    "note": "",
+    "url": "",
+    "doi": "10.18420/se2025-02",
+    "typeLabel": "Journal article",
+    "image": "./images/aiml2020small.png",
+    "topics": [
+      "AI-assisted Programming",
+      "Code Completion"
+    ],
+    "topicsNormalized": [
+      "ai-assisted-programming",
+      "code-completion"
+    ],
+    "position": 7
+  },
+  {
+    "cite": "helm2025unimocg",
+    "title": "Unimocg: Modular call-graph algorithms for consistent handling of language features",
+    "authors": [
+      "Helm",
+      "Roth",
+      "Keidel",
+      "Reif",
+      "Mezini"
+    ],
+    "year": "2025",
+    "yearDisplay": "2025",
+    "journal": "",
+    "booktitle": "SE",
+    "publisher": "",
+    "howpublished": "",
+    "institution": "",
+    "organization": "",
+    "school": "",
+    "series": "",
+    "note": "",
+    "url": "",
+    "doi": "10.18420/se2025-15",
+    "typeLabel": "Conference paper",
+    "image": "./images/aiml2020small.png",
+    "topics": [
+      "Call Graphs",
+      "Static Analysis"
+    ],
+    "topicsNormalized": [
+      "call-graphs",
+      "static-analysis"
+    ],
+    "position": 8
+  },
+  {
+    "cite": "helm2025total",
+    "title": "Total recall? How good are static call graphs really?",
+    "authors": [
+      "Helm",
+      "Keidel",
+      "KampkÃ¶tter",
+      "DÃ¼sing",
+      "Roth",
+      "Hermann",
+      "Mezini"
+    ],
+    "year": "2025",
+    "yearDisplay": "2025",
+    "journal": "",
+    "booktitle": "SE",
+    "publisher": "",
+    "howpublished": "",
+    "institution": "",
+    "organization": "",
+    "school": "",
+    "series": "",
+    "note": "",
+    "url": "",
+    "doi": "10.18420/se2025-28",
+    "typeLabel": "Conference paper",
+    "image": "./images/aiml2020small.png",
+    "topics": [
+      "Call Graphs",
+      "Static Analysis"
+    ],
+    "topicsNormalized": [
+      "call-graphs",
+      "static-analysis"
+    ],
+    "position": 9
+  },
+  {
+    "cite": "roth2025axa",
+    "title": "AXA: Cross-language analysis through integration of single-language analyses",
+    "authors": [
+      "Roth",
+      "NÃ¤umann",
+      "Helm",
+      "Keidel",
+      "Mezini"
+    ],
+    "year": "2025",
+    "yearDisplay": "2025",
+    "journal": "",
+    "booktitle": "SE",
+    "publisher": "",
+    "howpublished": "",
+    "institution": "",
+    "organization": "",
+    "school": "",
+    "series": "",
+    "note": "",
+    "url": "",
+    "doi": "10.18420/se2025-29",
+    "typeLabel": "Conference paper",
+    "image": "./images/aiml2020small.png",
+    "topics": [
+      "Cross-language Analysis",
+      "Static Analysis"
+    ],
+    "topicsNormalized": [
+      "cross-language-analysis",
+      "static-analysis"
+    ],
+    "position": 10
+  },
+  {
+    "cite": "richter2024compiling",
+    "title": "Compiling with arrays (artifact)",
+    "authors": [
+      "Richter",
+      "BÃ¶hler",
+      "Weisenburger",
+      "Mezini"
+    ],
+    "year": "2024",
+    "yearDisplay": "2024",
+    "journal": "DARTS",
+    "booktitle": "",
+    "publisher": "",
+    "howpublished": "",
+    "institution": "",
+    "organization": "",
+    "school": "",
+    "series": "",
+    "note": "",
+    "url": "",
+    "doi": "10.4230/darts.10.2.18",
+    "typeLabel": "Journal article",
+    "image": "./images/aiml2020small.png",
+    "topics": [
+      "Compiling",
+      "Arrays"
+    ],
+    "topicsNormalized": [
+      "compiling",
+      "arrays"
+    ],
+    "position": 11
+  },
+  {
+    "cite": "haas2024lore",
+    "title": "LoRe: A programming model for verifiably safe local-first software",
+    "authors": [
+      "Haas",
+      "Mogk",
+      "Yanakieva",
+      "Bieniusa",
+      "Mezini"
+    ],
+    "year": "2024",
+    "yearDisplay": "2024",
+    "journal": "TOPLAS",
+    "booktitle": "",
+    "publisher": "",
+    "howpublished": "",
+    "institution": "",
+    "organization": "",
+    "school": "",
+    "series": "",
+    "note": "",
+    "url": "",
+    "doi": "10.1145/3633769",
+    "typeLabel": "Journal article",
+    "image": "./images/aiml2020small.png",
+    "topics": [
+      "Local-first",
+      "Programming Model"
+    ],
+    "topicsNormalized": [
+      "local-first",
+      "programming-model"
+    ],
+    "position": 12
+  },
+  {
+    "cite": "anand2024critical",
+    "title": "A critical study of what code-LLMs (do not) learn",
+    "authors": [
+      "Anand",
+      "Verma",
+      "Narasimhan",
+      "Mezini"
+    ],
+    "year": "2024",
+    "yearDisplay": "2024",
+    "journal": "",
+    "booktitle": "ACL",
+    "publisher": "",
+    "howpublished": "",
+    "institution": "",
+    "organization": "",
+    "school": "",
+    "series": "",
+    "note": "",
+    "url": "",
+    "doi": "10.18653/v1/2024.findings-acl.939",
+    "typeLabel": "Conference paper",
+    "image": "./images/aiml2020small.png",
+    "topics": [
+      "Code LLMs",
+      "Machine Learning"
+    ],
+    "topicsNormalized": [
+      "code-llms",
+      "machine-learning"
+    ],
+    "position": 13
+  },
+  {
+    "cite": "richter2024compiling2",
+    "title": "Compiling with arrays",
+    "authors": [
+      "Richter",
+      "BÃ¶hler",
+      "Weisenburger",
+      "Mezini"
+    ],
+    "year": "2024",
+    "yearDisplay": "2024",
+    "journal": "",
+    "booktitle": "ECOOP",
+    "publisher": "",
+    "howpublished": "",
+    "institution": "",
+    "organization": "",
+    "school": "",
+    "series": "",
+    "note": "",
+    "url": "",
+    "doi": "10.4230/lipics.ecoop.2024.33",
+    "typeLabel": "Conference paper",
+    "image": "./images/aiml2020small.png",
+    "topics": [
+      "Compiling",
+      "Arrays"
+    ],
+    "topicsNormalized": [
+      "compiling",
+      "arrays"
+    ],
+    "position": 14
+  },
+  {
+    "cite": "keidel2024modular",
+    "title": "A modular soundness theory for the blackboard analysis architecture",
+    "authors": [
+      "Keidel",
+      "Helm",
+      "Roth",
+      "Mezini"
+    ],
+    "year": "2024",
+    "yearDisplay": "2024",
+    "journal": "",
+    "booktitle": "ESOP",
+    "publisher": "",
+    "howpublished": "",
+    "institution": "",
+    "organization": "",
+    "school": "",
+    "series": "",
+    "note": "",
+    "url": "",
+    "doi": "10.1007/978-3-031-57267-8_14",
+    "typeLabel": "Conference paper",
+    "image": "./images/aiml2020small.png",
+    "topics": [
+      "Static Analysis",
+      "Soundness"
+    ],
+    "topicsNormalized": [
+      "static-analysis",
+      "soundness"
+    ],
+    "position": 15
+  },
+  {
+    "cite": "boehler2024incrementalizing",
+    "title": "Incrementalizing polynomial functors",
+    "authors": [
+      "BÃ¶hler",
+      "Richter",
+      "Mezini"
+    ],
+    "year": "2024",
+    "yearDisplay": "2024",
+    "journal": "",
+    "booktitle": "FTFJP",
+    "publisher": "",
+    "howpublished": "",
+    "institution": "",
+    "organization": "",
+    "school": "",
+    "series": "",
+    "note": "",
+    "url": "",
+    "doi": "10.1145/3678721.3686231",
+    "typeLabel": "Conference paper",
+    "image": "./images/aiml2020small.png",
+    "topics": [
+      "Incrementalizing",
+      "Functors"
+    ],
+    "topicsNormalized": [
+      "incrementalizing",
+      "functors"
+    ],
+    "position": 16
+  },
+  {
+    "cite": "maninger2024towards",
+    "title": "Towards trustworthy AI software development assistance",
+    "authors": [
+      "Maninger",
+      "Narasimhan",
+      "Mezini"
+    ],
+    "year": "2024",
+    "yearDisplay": "2024",
+    "journal": "",
+    "booktitle": "ICSE",
+    "publisher": "",
+    "howpublished": "",
+    "institution": "",
+    "organization": "",
+    "school": "",
+    "series": "",
+    "note": "",
+    "url": "",
+    "doi": "10.1145/3639476.3639770",
+    "typeLabel": "Conference paper",
+    "image": "./images/aiml2020small.png",
+    "topics": [
+      "AI",
+      "Software Development"
+    ],
+    "topicsNormalized": [
+      "ai",
+      "software-development"
+    ],
+    "position": 17
+  },
+  {
+    "cite": "helm2024unimocg2",
+    "title": "Unimocg: Modular call-graph algorithms for consistent handling of language features",
+    "authors": [
+      "Helm",
+      "Roth",
+      "Keidel",
+      "Reif",
+      "Mezini"
+    ],
+    "year": "2024",
+    "yearDisplay": "2024",
+    "journal": "",
+    "booktitle": "ISSTA",
+    "publisher": "",
+    "howpublished": "",
+    "institution": "",
+    "organization": "",
+    "school": "",
+    "series": "",
+    "note": "",
+    "url": "",
+    "doi": "10.1145/3650212.3652109",
+    "typeLabel": "Conference paper",
+    "image": "./images/aiml2020small.png",
+    "topics": [
+      "Call Graphs",
+      "Static Analysis"
+    ],
+    "topicsNormalized": [
+      "call-graphs",
+      "static-analysis"
+    ],
+    "position": 18
+  },
+  {
+    "cite": "helm2024total2",
+    "title": "Total recall? How good are static call graphs really?",
+    "authors": [
+      "Helm",
+      "Keidel",
+      "KampkÃ¶tter",
+      "DÃ¼sing",
+      "Roth",
+      "Hermann",
+      "Mezini"
+    ],
+    "year": "2024",
+    "yearDisplay": "2024",
+    "journal": "",
+    "booktitle": "ISSTA",
+    "publisher": "",
+    "howpublished": "",
+    "institution": "",
+    "organization": "",
+    "school": "",
+    "series": "",
+    "note": "",
+    "url": "",
+    "doi": "10.1145/3650212.3652114",
+    "typeLabel": "Conference paper",
+    "image": "./images/aiml2020small.png",
+    "topics": [
+      "Call Graphs",
+      "Static Analysis"
+    ],
+    "topicsNormalized": [
+      "call-graphs",
+      "static-analysis"
+    ],
+    "position": 19
+  },
+  {
+    "cite": "roth2024axa2",
+    "title": "AXA: Cross-language analysis through integration of single-language analyses",
+    "authors": [
+      "Roth",
+      "NÃ¤umann",
+      "Helm",
+      "Keidel",
+      "Mezini"
+    ],
+    "year": "2024",
+    "yearDisplay": "2024",
+    "journal": "",
+    "booktitle": "KBSE",
+    "publisher": "",
+    "howpublished": "",
+    "institution": "",
+    "organization": "",
+    "school": "",
+    "series": "",
+    "note": "",
+    "url": "",
+    "doi": "10.1145/3691620.3696193",
+    "typeLabel": "Conference paper",
+    "image": "./images/aiml2020small.png",
+    "topics": [
+      "Cross-language Analysis",
+      "Static Analysis"
+    ],
+    "topicsNormalized": [
+      "cross-language-analysis",
+      "static-analysis"
+    ],
+    "position": 20
+  },
+  {
+    "cite": "wickert2024supporting",
+    "title": "Supporting error chains in static analysis for precise evaluation results and enhanced usability",
+    "authors": [
+      "Wickert",
+      "Schlichtig",
+      "Vogel",
+      "Winter",
+      "Mezini",
+      "Bodden"
+    ],
+    "year": "2024",
+    "yearDisplay": "2024",
+    "journal": "",
+    "booktitle": "WCRE",
+    "publisher": "",
+    "howpublished": "",
+    "institution": "",
+    "organization": "",
+    "school": "",
+    "series": "",
+    "note": "",
+    "url": "",
+    "doi": "10.1109/saner60148.2024.00076",
+    "typeLabel": "Conference paper",
+    "image": "./images/aiml2020small.png",
+    "topics": [
+      "Static Analysis",
+      "Error Chains"
+    ],
+    "topicsNormalized": [
+      "static-analysis",
+      "error-chains"
+    ],
+    "position": 21
+  },
+  {
+    "cite": "haas2023lore2",
+    "title": "LoRe: A programming model for verifiably safe local-first software (artifact)",
+    "authors": [
+      "Haas",
+      "Mogk",
+      "Yanakieva",
+      "Bieniusa",
+      "Mezini"
+    ],
+    "year": "2023",
+    "yearDisplay": "2023",
+    "journal": "DARTS",
+    "booktitle": "",
+    "publisher": "",
+    "howpublished": "",
+    "institution": "",
+    "organization": "",
+    "school": "",
+    "series": "",
+    "note": "",
+    "url": "",
+    "doi": "10.4230/darts.9.2.11",
+    "typeLabel": "Journal article",
+    "image": "./images/aiml2020small.png",
+    "topics": [
+      "Local-first",
+      "Programming Model"
+    ],
+    "topicsNormalized": [
+      "local-first",
+      "programming-model"
+    ],
+    "position": 22
+  },
+  {
+    "cite": "richter2023direct",
+    "title": "A direct-style effect notation for sequential and parallel programs (artifact)",
+    "authors": [
+      "Richter",
+      "BÃ¶hler",
+      "Weisenburger",
+      "Mezini"
+    ],
+    "year": "2023",
+    "yearDisplay": "2023",
+    "journal": "DARTS",
+    "booktitle": "",
+    "publisher": "",
+    "howpublished": "",
+    "institution": "",
+    "organization": "",
+    "school": "",
+    "series": "",
+    "note": "",
+    "url": "",
+    "doi": "10.4230/darts.9.2.17",
+    "typeLabel": "Journal article",
+    "image": "./images/aiml2020small.png",
+    "topics": [
+      "Effect Notation",
+      "Programs"
+    ],
+    "topicsNormalized": [
+      "effect-notation",
+      "programs"
+    ],
+    "position": 23
+  },
+  {
+    "cite": "kuessner2023algebraic",
+    "title": "Algebraic replicated data types: Programming secure local-first software (artifact)",
+    "authors": [
+      "Kuessner",
+      "Mogk",
+      "Wickert",
+      "Mezini"
+    ],
+    "year": "2023",
+    "yearDisplay": "2023",
+    "journal": "DARTS",
+    "booktitle": "",
+    "publisher": "",
+    "howpublished": "",
+    "institution": "",
+    "organization": "",
+    "school": "",
+    "series": "",
+    "note": "",
+    "url": "",
+    "doi": "10.4230/darts.9.2.26",
+    "typeLabel": "Journal article",
+    "image": "./images/aiml2020small.png",
+    "topics": [
+      "Replicated Data Types",
+      "Local-first"
+    ],
+    "topicsNormalized": [
+      "replicated-data-types",
+      "local-first"
+    ],
+    "position": 24
+  },
+  {
+    "cite": "richter2023prisma",
+    "title": "Prisma: A tierless language for enforcing contract-client protocols in decentralized applications",
+    "authors": [
+      "Richter",
+      "Kretzler",
+      "Weisenburger",
+      "Salvaneschi",
+      "Faust",
+      "Mezini"
+    ],
+    "year": "2023",
+    "yearDisplay": "2023",
+    "journal": "TOPLAS",
+    "booktitle": "",
+    "publisher": "",
+    "howpublished": "",
+    "institution": "",
+    "organization": "",
+    "school": "",
+    "series": "",
+    "note": "",
+    "url": "",
+    "doi": "10.1145/3604629",
+    "typeLabel": "Journal article",
+    "image": "./images/aiml2020small.png",
+    "topics": [
+      "Tierless Language",
+      "Decentralized Applications"
+    ],
+    "topicsNormalized": [
+      "tierless-language",
+      "decentralized-applications"
+    ],
+    "position": 25
+  },
+  {
+    "cite": "haas2023lore3",
+    "title": "LoRe: A programming model for verifiably safe local-first software (extended abstract)",
+    "authors": [
+      "Haas",
+      "Mogk",
+      "Yanakieva",
+      "Bieniusa",
+      "Mezini"
+    ],
+    "year": "2023",
+    "yearDisplay": "2023",
+    "journal": "",
+    "booktitle": "ECOOP",
+    "publisher": "",
+    "howpublished": "",
+    "institution": "",
+    "organization": "",
+    "school": "",
+    "series": "",
+    "note": "",
+    "url": "",
+    "doi": "10.4230/lipics.ecoop.2023.12",
+    "typeLabel": "Conference paper",
+    "image": "./images/aiml2020small.png",
+    "topics": [
+      "Local-first",
+      "Programming Model"
+    ],
+    "topicsNormalized": [
+      "local-first",
+      "programming-model"
+    ],
+    "position": 26
+  },
+  {
+    "cite": "kuessner2023algebraic2",
+    "title": "Algebraic replicated data types: Programming secure local-first software",
+    "authors": [
+      "Kuessner",
+      "Mogk",
+      "Wickert",
+      "Mezini"
+    ],
+    "year": "2023",
+    "yearDisplay": "2023",
+    "journal": "",
+    "booktitle": "ECOOP",
+    "publisher": "",
+    "howpublished": "",
+    "institution": "",
+    "organization": "",
+    "school": "",
+    "series": "",
+    "note": "",
+    "url": "",
+    "doi": "10.4230/lipics.ecoop.2023.14",
+    "typeLabel": "Conference paper",
+    "image": "./images/aiml2020small.png",
+    "topics": [
+      "Replicated Data Types",
+      "Local-first"
+    ],
+    "topicsNormalized": [
+      "replicated-data-types",
+      "local-first"
+    ],
+    "position": 27
+  },
+  {
+    "cite": "richter2023direct2",
+    "title": "A direct-style effect notation for sequential and parallel programs",
+    "authors": [
+      "Richter",
+      "BÃ¶hler",
+      "Weisenburger",
+      "Mezini"
+    ],
+    "year": "2023",
+    "yearDisplay": "2023",
+    "journal": "",
+    "booktitle": "ECOOP",
+    "publisher": "",
+    "howpublished": "",
+    "institution": "",
+    "organization": "",
+    "school": "",
+    "series": "",
+    "note": "",
+    "url": "",
+    "doi": "10.4230/lipics.ecoop.2023.25",
+    "typeLabel": "Conference paper",
+    "image": "./images/aiml2020small.png",
+    "topics": [
+      "Effect Notation",
+      "Programs"
+    ],
+    "topicsNormalized": [
+      "effect-notation",
+      "programs"
+    ],
+    "position": 28
+  },
+  {
+    "cite": "boehler2023using",
+    "title": "Using rewrite strategies for efficient functional automatic differentiation",
+    "authors": [
+      "BÃ¶hler",
+      "Richter",
+      "Mezini"
+    ],
+    "year": "2023",
+    "yearDisplay": "2023",
+    "journal": "",
+    "booktitle": "FTFJP",
+    "publisher": "",
+    "howpublished": "",
+    "institution": "",
+    "organization": "",
+    "school": "",
+    "series": "",
+    "note": "",
+    "url": "",
+    "doi": "10.1145/3605156.3606456",
+    "typeLabel": "Conference paper",
+    "image": "./images/aiml2020small.png",
+    "topics": [
+      "Rewrite Strategies",
+      "Automatic Differentiation"
+    ],
+    "topicsNormalized": [
+      "rewrite-strategies",
+      "automatic-differentiation"
+    ],
+    "position": 29
+  },
+  {
+    "cite": "wickert2023ungoml",
+    "title": "UnGoML: Automated classification of unsafe usages in go",
+    "authors": [
+      "Wickert",
+      "Damke",
+      "BaumgÃ¤rtner",
+      "HÃ¼llermeier",
+      "Mezini"
+    ],
+    "year": "2023",
+    "yearDisplay": "2023",
+    "journal": "",
+    "booktitle": "MSR",
+    "publisher": "",
+    "howpublished": "",
+    "institution": "",
+    "organization": "",
+    "school": "",
+    "series": "",
+    "note": "",
+    "url": "",
+    "doi": "10.1109/msr59073.2023.00050",
+    "typeLabel": "Conference paper",
+    "image": "./images/aiml2020small.png",
+    "topics": [
+      "Go",
+      "Unsafe Usages"
+    ],
+    "topicsNormalized": [
+      "go",
+      "unsafe-usages"
+    ],
+    "position": 30
+  },
+  {
+    "cite": "kruger2023securing",
+    "title": "Securing your crypto-API usage through tool support - A usability study",
+    "authors": [
+      "KrÃ¼ger",
+      "Reif",
+      "Wickert",
+      "Nadi",
+      "Ali",
+      "Bodden",
+      "Acar",
+      "Mezini",
+      "Fahl"
+    ],
+    "year": "2023",
+    "yearDisplay": "2023",
+    "journal": "",
+    "booktitle": "SECDEV",
+    "publisher": "",
+    "howpublished": "",
+    "institution": "",
+    "organization": "",
+    "school": "",
+    "series": "",
+    "note": "",
+    "url": "",
+    "doi": "10.1109/secdev56634.2023.00015",
+    "typeLabel": "Conference paper",
+    "image": "./images/aiml2020small.png",
+    "topics": [
+      "Crypto-API",
+      "Tool Support"
+    ],
+    "topicsNormalized": [
+      "crypto-api",
+      "tool-support"
+    ],
+    "position": 31
+  },
+  {
+    "cite": "breitfelder2023wasma",
+    "title": "WasmA: A static WebAssembly analysis framework for everyone",
+    "authors": [
+      "Breitfelder",
+      "Roth",
+      "BaumgÃ¤rtner",
+      "Mezini"
+    ],
+    "year": "2023",
+    "yearDisplay": "2023",
+    "journal": "",
+    "booktitle": "WCRE",
+    "publisher": "",
+    "howpublished": "",
+    "institution": "",
+    "organization": "",
+    "school": "",
+    "series": "",
+    "note": "",
+    "url": "",
+    "doi": "10.1109/saner56733.2023.00085",
+    "typeLabel": "Conference paper",
+    "image": "./images/aiml2020small.png",
+    "topics": [
+      "WebAssembly",
+      "Static Analysis"
+    ],
+    "topicsNormalized": [
+      "webassembly",
+      "static-analysis"
+    ],
+    "position": 32
+  },
+  {
+    "cite": "ochs2023evaluating",
+    "title": "Evaluating and improving transformers pre-trained on ASTs for code completion",
+    "authors": [
+      "Ochs",
+      "Narasimhan",
+      "Mezini"
+    ],
+    "year": "2023",
+    "yearDisplay": "2023",
+    "journal": "",
+    "booktitle": "WCRE",
+    "publisher": "",
+    "howpublished": "",
+    "institution": "",
+    "organization": "",
+    "school": "",
+    "series": "",
+    "note": "",
+    "url": "",
+    "doi": "10.1109/saner56733.2023.00096",
+    "typeLabel": "Conference paper",
+    "image": "./images/aiml2020small.png",
+    "topics": [
+      "ASTs",
+      "Code Completion"
+    ],
+    "topicsNormalized": [
+      "asts",
+      "code-completion"
+    ],
+    "position": 33
+  },
+  {
+    "cite": "richter2022prisma2",
+    "title": "Prisma: A tierless language for enforcing contract-client protocols in decentralized applications (artifact)",
+    "authors": [
+      "Richter",
+      "Kretzler",
+      "Weisenburger",
+      "Salvaneschi",
+      "Faust",
+      "Mezini"
+    ],
+    "year": "2022",
+    "yearDisplay": "2022",
+    "journal": "DARTS",
+    "booktitle": "",
+    "publisher": "",
+    "howpublished": "",
+    "institution": "",
+    "organization": "",
+    "school": "",
+    "series": "",
+    "note": "",
+    "url": "",
+    "doi": "10.4230/darts.8.2.16",
+    "typeLabel": "Journal article",
+    "image": "./images/aiml2020small.png",
+    "topics": [
+      "Tierless Language",
+      "Decentralized Applications"
+    ],
+    "topicsNormalized": [
+      "tierless-language",
+      "decentralized-applications"
+    ],
+    "position": 34
+  },
+  {
+    "cite": "eichholz2022dependently",
+    "title": "Dependently-typed data plane programming",
+    "authors": [
+      "Eichholz",
+      "Campbell",
+      "Krebs",
+      "Foster",
+      "Mezini"
+    ],
+    "year": "2022",
+    "yearDisplay": "2022",
+    "journal": "",
+    "booktitle": "POPL",
+    "publisher": "",
+    "howpublished": "",
+    "institution": "",
+    "organization": "",
+    "school": "",
+    "series": "",
+    "note": "",
+    "url": "",
+    "doi": "10.1145/3498701",
+    "typeLabel": "Conference paper",
+    "image": "./images/aiml2020small.png",
+    "topics": [
+      "Dependently-typed",
+      "Data Plane Programming"
+    ],
+    "topicsNormalized": [
+      "dependently-typed",
+      "data-plane-programming"
+    ],
+    "position": 35
+  },
+  {
+    "cite": "richter2022prisma3",
+    "title": "Prisma: A tierless language for enforcing contract-client protocols in decentralized applications (extended abstract)",
+    "authors": [
+      "Richter",
+      "Kretzler",
+      "Weisenburger",
+      "Salvaneschi",
+      "Faust",
+      "Mezini"
+    ],
+    "year": "2022",
+    "yearDisplay": "2022",
+    "journal": "",
+    "booktitle": "ECOOP",
+    "publisher": "",
+    "howpublished": "",
+    "institution": "",
+    "organization": "",
+    "school": "",
+    "series": "",
+    "note": "",
+    "url": "",
+    "doi": "10.4230/lipics.ecoop.2022.35",
+    "typeLabel": "Conference paper",
+    "image": "./images/aiml2020small.png",
+    "topics": [
+      "Tierless Language",
+      "Decentralized Applications"
+    ],
+    "topicsNormalized": [
+      "tierless-language",
+      "decentralized-applications"
+    ],
+    "position": 36
+  },
+  {
+    "cite": "roth2022cifi",
+    "title": "CiFi: Versatile analysis of class and field immutability",
+    "authors": [
+      "Roth",
+      "Helm",
+      "Reif",
+      "Mezini"
+    ],
+    "year": "2022",
+    "yearDisplay": "2022",
+    "journal": "",
+    "booktitle": "SE",
+    "publisher": "",
+    "howpublished": "",
+    "institution": "",
+    "organization": "",
+    "school": "",
+    "series": "",
+    "note": "",
+    "url": "",
+    "doi": "10.18420/se2022-ws-027",
+    "typeLabel": "Conference paper",
+    "image": "./images/aiml2020small.png",
+    "topics": [
+      "Immutability",
+      "Static Analysis"
+    ],
+    "topicsNormalized": [
+      "immutability",
+      "static-analysis"
+    ],
+    "position": 37
+  },
+  {
+    "cite": "binder2022jguard",
+    "title": "jGuard: Programming misuse-resilient APIs",
+    "authors": [
+      "Binder",
+      "Narasimhan",
+      "Kernig",
+      "Mezini"
+    ],
+    "year": "2022",
+    "yearDisplay": "2022",
+    "journal": "",
+    "booktitle": "SLE",
+    "publisher": "",
+    "howpublished": "",
+    "institution": "",
+    "organization": "",
+    "school": "",
+    "series": "",
+    "note": "",
+    "url": "",
+    "doi": "10.1145/3567512.3567526",
+    "typeLabel": "Conference paper",
+    "image": "./images/aiml2020small.png",
+    "topics": [
+      "APIs",
+      "Misuse-resilient"
+    ],
+    "topicsNormalized": [
+      "apis",
+      "misuse-resilient"
+    ],
+    "position": 38
+  },
+  {
+    "cite": "wickert2022to",
+    "title": "To fix or not to fix: A critical study of crypto-misuses in the wild",
+    "authors": [
+      "Wickert",
+      "BaumgÃ¤rtner",
+      "Schlichtig",
+      "Narasimhan",
+      "Mezini"
+    ],
+    "year": "2022",
+    "yearDisplay": "2022",
+    "journal": "",
+    "booktitle": "TRUSTCOM",
+    "publisher": "",
+    "howpublished": "",
+    "institution": "",
+    "organization": "",
+    "school": "",
+    "series": "",
+    "note": "",
+    "url": "",
+    "doi": "10.1109/trustcom56396.2022.00051",
+    "typeLabel": "Conference paper",
+    "image": "./images/aiml2020small.png",
+    "topics": [
+      "Crypto-misuses",
+      "Static Analysis"
+    ],
+    "topicsNormalized": [
+      "crypto-misuses",
+      "static-analysis"
+    ],
+    "position": 39
+  }
+]

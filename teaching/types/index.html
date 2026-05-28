@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="Type Systems (TYPES) - Software Technology Group">
+    <meta name="author" content="">
+
+    <title>Type Systems (TYPES)</title>
+  <link rel="icon" type="image/svg+xml" href="../../icons/logos/stg-logo.svg"/>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="../../css/style.css" rel="stylesheet">
+
+</head>
+
+
+<body class="site-body has-fixed-header">
+<header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm fixed-top">
+      <div class="container align-items-center">
+              <a class="navbar-brand fw-bold d-flex align-items-center gap-2" href="../../index.html">
+        <span>STG</span>
+      </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCourse" aria-controls="navbarCourse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+                                <div class="collapse navbar-collapse justify-content-end" id="navbarCourse">
+          <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-3">
+            <li class="nav-item"><a class="nav-link" href="../../index.html">Back to STG</a></li>
+          </ul>
+        </div>
+
+      </div>
+    </nav>
+</header>
+
+<main id="top" class="container py-5" role="main">
+
+    <div class="container" id="banner">
+        <br><br><br>
+    </div>
+    <div class="clearfix"></div>
+    <div class="container" id="mission">
+    
+        <h1>Type Systems (TYPES)</h1>
+        
+        <p>Advanced type systems offer a compelling way for proving the absence of entire classes of errors without even running any program. We will cover, among other things, the following topics:</p>
+        <ul>
+            <li>programming with advanced type systems</li>
+            <li>lambda calculus, simple types, polymorphism, dependent types</li>
+            <li>typing rules, type checking, type inference, type soundness</li>
+            <li>implementing type systems for programming languages</li>
+        </ul>
+        
+        <p>Participation is limited. Applications will be made on the first lecture date, and the selection will be announced on the second lecture date.</p>
+        
+        <h3>Recommended Prerequisites:</h3>
+        <ul>
+            <li>Lecture "Functional and Object-Oriented Programming" (FOP)</li>
+            <li>Lecture "Concepts of Programming Languages" (COPL)</li>
+        </ul>
+        
+        <h3>Notes:</h3>
+        <ul>
+            <li>The course will include practical homework examples in the functional, dependently-typed programming language and proof assistant Lean 4, which can be conveniently installed as a plugin for VSCodium / VSCode.</li>
+        </ul>
+        
+        <h3>Course Details:</h3>
+        <ul>
+            <li><strong>Turnus:</strong> Summer</li>
+            <li><strong>Kind:</strong> IV 06cp</li>
+            <li><strong>In Tucan:</strong> 20-00-1246-iv Type Systems</li>
+        </ul>
+        
+        <h3>Resources:</h3>
+        <ul>
+            <li><a href="https://lean-lang.org/" target="_blank">Lean 4</a></li>
+            <li><a href="https://open-vsx.org/extension/leanprover.lean4" target="_blank">VSCodium</a></li>
+            <li><a href="https://marketplace.visualstudio.com/items?itemName=leanprover.lean4" target="_blank">VSCode</a></li>
+            <li><a href="https://moodle.informatik.tu-darmstadt.de/course/search.php?areaids=core_course-course&q=lambda" target="_blank">Moodle</a></li>
+        </ul>
+    
+        <br><br>
+    </div>
+    
+    <hr class="soft">
+
+  </main>
+  <footer>
+      <hr class="soft" id="legal">
+
+
+      <div class="container" id="sitefooter">
+    
+          <a href="https://www.informatik.tu-darmstadt.de/impressum.en.jsp">Legal info / Impressum</a>
+          <br><br>
+    
+          Technische Universität Darmstadt <br>
+          Fachbereich Informatik <br>
+          A2, Hochschulstraße 10 <br>
+          64289 Darmstadt<br>
+          Germany<br><br>
+
+
+      </div>
+
+  </footer>
+
+
+  <!-- place js at end for faster loading -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<script>
+    $(document).ready(function () {
+          $("#nav a").on('click', function (event) {
+
+              // Make sure this.hash has a value before overriding default behavior
+              if (this.hash !== "") {
+    
+                  // Prevent default anchor click behavior
+                  event.preventDefault();
+    
+                  // Store hash
+                  var hash = this.hash;
+    
+                  // Using jQuery's animate() method to add smooth page scroll
+                  // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+                  $('html, body').animate({
+                      scrollTop: $(hash).offset().top
+                  }, 800, function () {
+    
+                      // Add hash (#) to URL when done scrolling (default click behavior)
+                      window.location.hash = hash;
+                  });
+    
+              } // End if
+    
+          });
+      });
+  </script>
+
+
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB6xrY5kKwxlhKp0a0NhbbX6YsJhBKt3DJDnmoFVy38MVBnE+Ibb" crossorigin="anonymous"></script>
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    document.querySelectorAll('.navbar-toggler').forEach(function (toggler) {
+      toggler.addEventListener('click', function () {
+        var targetSelector = toggler.getAttribute('data-bs-target');
+        if (!targetSelector) return;
+        var target = document.querySelector(targetSelector);
+        if (!target) return;
+        var isOpen = target.classList.contains('show');
+        if (isOpen) {
+          target.classList.remove('show');
+        } else {
+          target.classList.add('show');
+        }
+        toggler.setAttribute('aria-expanded', String(!isOpen));
+      });
+    });
+  });
+</script>
+
+</body>
+</html>
