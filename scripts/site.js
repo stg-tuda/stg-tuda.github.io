@@ -207,9 +207,24 @@
       if (!container) return;
       container.innerHTML = '';
 
+      if (!areas.length) return;
+
+      // Calculate column class based on number of areas
+      const areaCount = areas.length;
+      let defaultColClass;
+      if (areaCount === 1) {
+        defaultColClass = 'col-12';
+      } else if (areaCount === 2) {
+        defaultColClass = 'col-md-6 col-xl-6';
+      } else if (areaCount === 3) {
+        defaultColClass = 'col-md-4 col-xl-4';
+      } else {
+        defaultColClass = 'col-md-6 col-xl-3';
+      }
+
       areas.forEach((area) => {
         const col = Utils.createElement('div', {
-          className: area.colClass || 'col-md-6 col-xl-4'
+          className: area.colClass || defaultColClass
         });
         const card = Utils.createElement(area.link ? 'a' : 'article', {
           className: 'research-card h-100'
