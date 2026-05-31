@@ -1055,8 +1055,8 @@ body.has-fixed-header main {
 }
 
 .hero-logo {
-  height: 48px;
-  width: auto;
+  width: 120px;
+  height: auto;
   background: #ffffff;
   padding: 0.5rem 0.85rem;
   border-radius: 0.75rem;
