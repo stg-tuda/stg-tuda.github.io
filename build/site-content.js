@@ -107,13 +107,13 @@ window.STG_SITE_CONTENT = {
   ],
   "peopleSections": [
     {
-      "id": "professors",
-      "title": "Professors",
-      "description": "Leadership of the Software Technology Group.",
+      "id": "head",
+      //"title": "Professors",
+      "title":  "Head of STG Group",
+      //"description": "Leadership of the Software Technology Group",
       "defaultVisible": true,
       "people": [
-        { "id": "mmezini", "name": "Prof. Dr. Mira Mezini", "role": "Professor", "focus": "Software Technology Group Head" },
-        { "id": "igrassl", "name": "Dr. Isabella Graßl", "role": "Professor", "focus": "Software Technology" }
+        { "id": "mmezini", "name": "Prof. Dr. Mira Mezini", "role": "Full Professor" },
       ]
     },
     {
@@ -122,10 +122,19 @@ window.STG_SITE_CONTENT = {
       "description": "Administrative, project and technical staff supporting the group.",
       "defaultVisible": true,
       "people": [
-        { "id": "eberghoff", "name": "Esther Berghoff", "role": "Administration", "focus": "Dipl.-Wirt.-Ing." },
+        { "id": "eberghoff", "name": "Esther Berghoff", "role": "Administration", "focus": "ATHENE Project Manager" },
         { "id": "crossmann", "name": "Claudia Roßmann", "role": "Administration", "focus": "Administrative Staff" },
         { "id": "bscheet", "name": "Boris Scheet", "role": "Technical Staff", "focus": "Technical Support" },
         { "id": "pmoeller", "name": "Pamela Möller", "role": "Administration", "focus": "Administrative Staff" }
+      ]
+    },
+    {
+      "id": "visiting",
+      "title": "Guest Researchers",
+     // "description": "Visiting researchers and collaborators.",
+      "defaultVisible": true,
+      "people": [
+        { "id": "igrassl", "name": "Dr. Isabella Graßl", "role": "Guest Researcher" }
       ]
     },
     {
@@ -134,10 +143,10 @@ window.STG_SITE_CONTENT = {
       "description": "Postdoctoral researchers conducting advanced research.",
       "defaultVisible": true,
       "people": [
-        { "id": "rmogk", "name": "Dr. Ragnar Mogk", "role": "Postdoctoral Researcher", "focus": "Software Technology" },
-        { "id": "treinhard", "name": "Dr. Tobias Reinhard", "role": "Postdoctoral Researcher", "focus": "Software Technology" },
-        { "id": "asharifloo", "name": "Dr. Amir Molzam Sharifloo", "role": "Postdoctoral Researcher", "focus": "Software Technology" },
-        { "id": "drichter", "name": "Dr. David Richter", "role": "Postdoctoral Researcher", "focus": "Software Technology" }
+        { "id": "rmogk", "name": "Dr. Ragnar Mogk", "role": "Postdoctoral Researcher" },
+        { "id": "treinhard", "name": "Dr. Tobias Reinhard", "role": "Postdoctoral Researcher" },
+        { "id": "asharifloo", "name": "Dr. Amir Molzam Sharifloo", "role": "Postdoctoral Researcher" },
+        { "id": "drichter", "name": "Dr. David Richter", "role": "Postdoctoral Researcher"}
       ]
     },
     {
@@ -146,18 +155,18 @@ window.STG_SITE_CONTENT = {
       "description": "PhD candidates working on their dissertations.",
       "defaultVisible": true,
       "people": [
-        { "id": "pmueller", "name": "Patrick Müller", "role": "Doctoral Researcher", "focus": "Software Technology" },
-        { "id": "jbrugger", "name": "Jannis Brugger", "role": "Doctoral Researcher", "focus": "Software Technology" },
-        { "id": "jhaas", "name": "Julian Haas", "role": "Doctoral Researcher", "focus": "Software Technology" },
-        { "id": "aanand", "name": "Abhinav Anand", "role": "Doctoral Researcher", "focus": "Software Technology" },
-        { "id": "dmaninger", "name": "Daniel Maninger", "role": "Doctoral Researcher", "focus": "Software Technology" },
-        { "id": "tboehler", "name": "Timon Böhler", "role": "Doctoral Researcher", "focus": "Software Technology" },
-        { "id": "mtiftikci", "name": "Mert Tiftikci", "role": "Doctoral Researcher", "focus": "Software Technology" },
-        { "id": "sverma", "name": "Shweta Verma", "role": "Doctoral Researcher", "focus": "Software Technology" },
-        { "id": "sdaniel", "name": "Simon Daniel", "role": "Doctoral Researcher", "focus": "Software Technology" },
-        { "id": "ckuessner", "name": "Christian Kuessner", "role": "Doctoral Researcher", "focus": "Software Technology" },
-        { "id": "fmeerkotter", "name": "Fabian Meerkötter", "role": "Doctoral Researcher", "focus": "Software Technology" },
-        { "id": "bsmit", "name": "Benedict Smit", "role": "Doctoral Researcher", "focus": "Software Technology" }
+        { "id": "pmueller", "name": "Patrick Müller", "role": "Doctoral Researcher"},
+        { "id": "jbrugger", "name": "Jannis Brugger", "role": "Doctoral Researcher"},
+        { "id": "jhaas", "name": "Julian Haas", "role": "Doctoral Researcher"},
+        { "id": "aanand", "name": "Abhinav Anand", "role": "Doctoral Researcher"},
+        { "id": "dmaninger", "name": "Daniel Maninger", "role": "Doctoral Researcher"},
+        { "id": "tboehler", "name": "Timon Böhler", "role": "Doctoral Researcher"},
+        { "id": "mtiftikci", "name": "Mert Tiftikci", "role": "Doctoral Researcher"},
+        { "id": "sverma", "name": "Shweta Verma", "role": "Doctoral Researcher"},
+        { "id": "sdaniel", "name": "Simon Daniel", "role": "Doctoral Researcher"},
+        { "id": "ckuessner", "name": "Christian Kuessner", "role": "Doctoral Researcher" },
+        { "id": "fmeerkotter", "name": "Fabian Meerkötter", "role": "Doctoral Researcher" },
+        { "id": "bsmit", "name": "Benedict Smit", "role": "Doctoral Researcher" }
       ]
     }
   ]
