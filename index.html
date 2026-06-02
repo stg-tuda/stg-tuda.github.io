@@ -39,10 +39,18 @@
   </nav>
 </header>
 <main id="top">
+  <section class="hero-banner">
+    <div class="hero-group-photo-wrapper" data-component="heroPhoto">
+      <button type="button" class="hero-group-photo-toggle" data-action="toggleHeroPhoto" aria-expanded="false" aria-label="Toggle enlarged group photo">
+        <img src="./images/imp_STG.jpg" alt="STG group photo" class="img-fluid hero-group-photo" loading="lazy"/>
+        <span class="hero-group-photo-trigger" aria-hidden="true"></span>
+      </button>
+    </div>
+  </section>
   <section class="hero-intro py-5 border-bottom bg-white">
     <div class="container">
       <div class="row g-5 align-items-center">
-        <div class="col-lg-7">
+        <div class="col-lg-9">
           <h1 class="display-5 fw-semibold text-dark">Software Technology Group</h1>
           <p class="text-uppercase text-muted fw-semibold small letter-spacing">TU Darmstadt</p>
           <p class="lead text-secondary mt-3">We focus on code intelligence and programming models, applied in AI/Software Engineering and Programming Language Design and Implementation.</p>
@@ -53,27 +61,19 @@
           </div>
           <div class="hero-stats mt-4" data-render="heroStats"></div>
         </div>
-        <div class="col-lg-5">
-      <figure class="hero-figure">
-            <div class="hero-group-photo-wrapper" data-component="heroPhoto">
-              <button type="button" class="hero-group-photo-toggle" data-action="toggleHeroPhoto" aria-expanded="false" aria-label="Toggle enlarged group photo">
-                <img src="./images/imp_STG.jpg" alt="STG group photo" class="img-fluid hero-group-photo" loading="lazy"/>
-                <span class="hero-group-photo-trigger" aria-hidden="true"></span>
-              </button>
-            </div>
-          </figure>
+        <div class="col-lg-3">
             <div class="hero-affiliations-stack mt-3">
 
-            <div class="d-flex flex-wrap gap-3 align-items-center mt-3 hero-affiliations">
+            <div class="d-flex flex-column gap-3 mt-3 hero-affiliations">
 
-              <a class="hero-logo-link" href="https://www.athene-center.de/" target="_blank" rel="noopener" aria-label="athene">
-                <img src="./images/athene.svg" alt="athene" class="hero-logo"/>
+              <a class="hero-logo-link w-100" href="https://www.athene-center.de/" target="_blank" rel="noopener" aria-label="athene">
+                <img src="./images/athene.svg" alt="athene" class="hero-logo w-100"/>
               </a>
-              <a class="hero-logo-link" href="https://hessian.ai/" target="_blank" rel="noopener" aria-label="Hessian.AI">
-                <img src="./icons/logos/hessianAI.svg" alt="Hessian.AI" class="hero-logo"/>
+              <a class="hero-logo-link w-100" href="https://hessian.ai/" target="_blank" rel="noopener" aria-label="Hessian.AI">
+                <img src="./icons/logos/hessianAI.svg" alt="Hessian.AI" class="hero-logo w-100"/>
               </a>
-              <a class="hero-logo-link" href="https://www.tu-darmstadt.de/" target="_blank" rel="noopener" aria-label="TU Darmstadt">
-                <img src="./images/tu_logo_web.svg" alt="TU Darmstadt" class="hero-logo"/>
+              <a class="hero-logo-link w-100" href="https://www.tu-darmstadt.de/" target="_blank" rel="noopener" aria-label="TU Darmstadt">
+                <img src="./images/tu_logo_web.svg" alt="TU Darmstadt" class="hero-logo w-100"/>
               </a>
             </div>
           </div>

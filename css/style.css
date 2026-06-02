@@ -924,6 +924,29 @@ body.has-fixed-header main {
   }
 }
 
+.hero-banner {
+  width: 100%;
+  background: #f8f9fa;
+  padding: 2rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid #e9ecef;
+}
+
+.hero-banner .hero-group-photo-wrapper {
+  max-width: 1200px;
+  width: 100%;
+  padding: 0 1rem;
+}
+
+.hero-banner .hero-group-photo {
+  max-width: 100%;
+  height: auto;
+  max-height: 400px;
+  object-fit: cover;
+}
+
 .hero-figure {
   display: flex;
   justify-content: center;
@@ -1062,6 +1085,11 @@ body.has-fixed-header main {
   border-radius: 0.75rem;
   box-shadow: 0 12px 24px -18px rgba(0, 42, 71, 0.35);
   transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.hero-affiliations.flex-column .hero-logo {
+  width: 100%;
+  max-width: 200px;
 }
 
 .hero-affiliations-stack {
