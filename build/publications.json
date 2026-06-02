@@ -1391,5 +1391,41 @@
       "static-analysis"
     ],
     "position": 39
+  },
+  {
+    "cite": "näumann2026bleusemanticevaluationmethod",
+    "title": "Beyond BLEU: A Semantic Evaluation Method for Code Translation",
+    "authors": [
+      "Julius Näumann",
+      "Sven Keidel",
+      "Amir Molzam Sharifloo",
+      "Mira Mezini"
+    ],
+    "year": "2026",
+    "yearDisplay": "2026",
+    "journal": "",
+    "booktitle": "",
+    "publisher": "",
+    "howpublished": "",
+    "institution": "",
+    "organization": "",
+    "school": "",
+    "series": "",
+    "note": "",
+    "url": "https://arxiv.org/abs/2605.05282",
+    "doi": "",
+    "typeLabel": "Preprint",
+    "image": "./images/aiml2020small.png",
+    "topics": [
+      "Code Translation",
+      "Semantic Evaluation",
+      "Code Generation"
+    ],
+    "topicsNormalized": [
+      "code-translation",
+      "semantic-evaluation",
+      "code-generation"
+    ],
+    "position": 40
   }
 ]
