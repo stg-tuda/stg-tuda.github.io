@@ -23,7 +23,7 @@ window.STG_SITE_CONTENT = {
       "recommended": "Bachelor and Master students",
       "language": "English",
       "lastTaught": "Regular",
-      "link": "./teaching/copl/index.html",
+      "link": "https://moodle.informatik.tu-darmstadt.de/course/search.php?areaids=core_course-course&q=COPL",
       "responsible": ["STG Team"]
     },
     {
@@ -36,7 +36,7 @@ window.STG_SITE_CONTENT = {
       "recommended": "Advanced Bachelor and Master students",
       "language": "English",
       "lastTaught": "Regular",
-      "link": "./teaching/types/index.html",
+      "link": "https://moodle.informatik.tu-darmstadt.de/course/search.php?areaids=core_course-course&q=lambda",
       "responsible": ["STG Team"]
     },
     {
@@ -49,7 +49,7 @@ window.STG_SITE_CONTENT = {
       "recommended": "Master students",
       "language": "English",
       "lastTaught": "Regular",
-      "link": "./teaching/daimpl/index.html",
+      "link": "https://moodle.informatik.tu-darmstadt.de/course/search.php?areaids=core_course-course&q=DAIMPL",
       "responsible": ["STG Team"]
     },
     {
@@ -62,7 +62,7 @@ window.STG_SITE_CONTENT = {
       "recommended": "Master students",
       "language": "English",
       "lastTaught": "Regular",
-      "link": "./teaching/ai4ca/index.html",
+      "link": "https://stg-tud.github.io/AI4CI/",
       "responsible": ["STG Team"]
     },
     {
@@ -75,7 +75,7 @@ window.STG_SITE_CONTENT = {
       "recommended": "Master students",
       "language": "English",
       "lastTaught": "Regular",
-      "link": "./teaching/impl/index.html",
+      "link": "https://moodle.informatik.tu-darmstadt.de/course/search.php?areaids=core_course-course&q=P-IMPL",
       "responsible": ["STG Team"]
     },
     {
@@ -88,7 +88,7 @@ window.STG_SITE_CONTENT = {
       "recommended": "Bachelor and Master students",
       "language": "English",
       "lastTaught": "Regular",
-      "link": "./teaching/sdt/index.html",
+      "link": "https://stg-tud.github.io/AI4CI/#project-software-development-tools",
       "responsible": ["STG Team"]
     },
     {
@@ -101,7 +101,7 @@ window.STG_SITE_CONTENT = {
       "recommended": "Master students",
       "language": "English/German",
       "lastTaught": "Yearly",
-      "link": "./teaching/sep/index.html",
+      "link": "https://stg-tud.github.io/sep/",
       "responsible": ["STG Team"]
     }
   ],
