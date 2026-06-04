@@ -5,7 +5,6 @@
 window.STG_SITE_CONTENT = {
   "heroStats": [
     { "value": "20+", "label": "Researchers & staff", "icon": "👥", "colClass": "col-6 col-md-4" },
-    { "value": "Part of", "label": "TU Darmstadt Computer Science Department", "icon": "🏛️", "colClass": "col-6 col-md-4" },
     { "value": "Active research", "label": "Code intelligence & programming models", "icon": "🛠️", "colClass": "col-12 col-md-4" }
   ],
   "focusAreas": [
@@ -143,10 +142,10 @@ window.STG_SITE_CONTENT = {
       "description": "Postdoctoral researchers conducting advanced research.",
       "defaultVisible": true,
       "people": [
-        { "id": "rmogk", "name": "Dr. Ragnar Mogk", "role": "Postdoctoral Researcher" },
-        { "id": "treinhard", "name": "Dr. Tobias Reinhard", "role": "Postdoctoral Researcher" },
-        { "id": "asharifloo", "name": "Dr. Amir Molzam Sharifloo", "role": "Postdoctoral Researcher" },
-        { "id": "drichter", "name": "Dr. David Richter", "role": "Postdoctoral Researcher"}
+        { "id": "rmogk", "name": "Dr. Ragnar Mogk", "focus": "Programming Languages" },
+        { "id": "treinhard", "name": "Dr. Tobias Reinhard", "focus": "Neurosymbolic Programming" },
+        { "id": "asharifloo", "name": "Dr. Amir Molzam", "focus": "AI/Software Engineering" },
+        { "id": "drichter", "name": "Dr. David Richter", "focus": "Programming Languages"}
       ]
     },
     {
