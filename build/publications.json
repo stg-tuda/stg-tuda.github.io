@@ -19,10 +19,10 @@
     "school": "",
     "series": "",
     "note": "",
-    "url": "",
+    "url": "https://doi.org/10.1109/mic.2025.3618947",
     "doi": "10.1109/mic.2025.3618947",
     "typeLabel": "Journal article",
-    "image": "./images/aiml2020small.png",
+    "image": "./images/paper-icon.png",
     "topics": [
       "Programming Models",
       "Decentralized Applications"
@@ -54,10 +54,10 @@
     "school": "",
     "series": "",
     "note": "",
-    "url": "",
+    "url": "https://doi.org/10.1109/aiware69974.2025.00034",
     "doi": "10.1109/aiware69974.2025.00034",
     "typeLabel": "Conference paper",
-    "image": "./images/aiml2020small.png",
+    "image": "./images/paper-icon.png",
     "topics": [
       "Code Generation",
       "Web APIs",
@@ -91,10 +91,10 @@
     "school": "",
     "series": "",
     "note": "",
-    "url": "",
+    "url": "https://doi.org/10.1109/aiware69974.2025.00035",
     "doi": "10.1109/aiware69974.2025.00035",
     "typeLabel": "Conference paper",
-    "image": "./images/aiml2020small.png",
+    "image": "./images/paper-icon.png",
     "topics": [
       "LLMs",
       "Code Generation",
@@ -128,10 +128,10 @@
     "school": "",
     "series": "",
     "note": "",
-    "url": "",
+    "url": "https://doi.org/10.1007/978-3-032-05461-6_7",
     "doi": "10.1007/978-3-032-05461-6_7",
     "typeLabel": "Conference paper",
-    "image": "./images/aiml2020small.png",
+    "image": "./images/paper-icon.png",
     "topics": [
       "Equation Discovery",
       "Neural Guidance"
@@ -166,10 +166,10 @@
     "school": "",
     "series": "",
     "note": "",
-    "url": "",
+    "url": "https://doi.org/10.4230/lipics.ecoop.2025.40",
     "doi": "10.4230/lipics.ecoop.2025.40",
     "typeLabel": "Conference paper",
-    "image": "./images/aiml2020small.png",
+    "image": "./images/paper-icon.png",
     "topics": [
       "Android Malware",
       "Static Analysis"
@@ -199,10 +199,10 @@
     "school": "",
     "series": "",
     "note": "",
-    "url": "",
+    "url": "https://doi.org/10.18653/v1/2025.emnlp-main.1735",
     "doi": "10.18653/v1/2025.emnlp-main.1735",
     "typeLabel": "Conference paper",
-    "image": "./images/aiml2020small.png",
+    "image": "./images/paper-icon.png",
     "topics": [
       "State Space Models",
       "Code Understanding"
@@ -232,10 +232,10 @@
     "school": "",
     "series": "",
     "note": "",
-    "url": "",
+    "url": "https://doi.org/10.18653/v1/2025.naacl-srw.27",
     "doi": "10.18653/v1/2025.naacl-srw.27",
     "typeLabel": "Conference paper",
-    "image": "./images/aiml2020small.png",
+    "image": "./images/paper-icon.png",
     "topics": [
       "Symbolic Execution",
       "LLMs",
@@ -265,10 +265,10 @@
     "school": "",
     "series": "",
     "note": "",
-    "url": "",
+    "url": "https://doi.org/10.18420/se2025-02",
     "doi": "10.18420/se2025-02",
     "typeLabel": "Journal article",
-    "image": "./images/aiml2020small.png",
+    "image": "./images/paper-icon.png",
     "topics": [
       "AI-assisted Programming",
       "Code Completion"
@@ -300,10 +300,10 @@
     "school": "",
     "series": "",
     "note": "",
-    "url": "",
+    "url": "https://doi.org/10.18420/se2025-15",
     "doi": "10.18420/se2025-15",
     "typeLabel": "Conference paper",
-    "image": "./images/aiml2020small.png",
+    "image": "./images/paper-icon.png",
     "topics": [
       "Call Graphs",
       "Static Analysis"
@@ -337,10 +337,10 @@
     "school": "",
     "series": "",
     "note": "",
-    "url": "",
+    "url": "https://doi.org/10.18420/se2025-28",
     "doi": "10.18420/se2025-28",
     "typeLabel": "Conference paper",
-    "image": "./images/aiml2020small.png",
+    "image": "./images/paper-icon.png",
     "topics": [
       "Call Graphs",
       "Static Analysis"
@@ -372,10 +372,10 @@
     "school": "",
     "series": "",
     "note": "",
-    "url": "",
+    "url": "https://doi.org/10.18420/se2025-29",
     "doi": "10.18420/se2025-29",
     "typeLabel": "Conference paper",
-    "image": "./images/aiml2020small.png",
+    "image": "./images/paper-icon.png",
     "topics": [
       "Cross-language Analysis",
       "Static Analysis"
@@ -406,10 +406,10 @@
     "school": "",
     "series": "",
     "note": "",
-    "url": "",
+    "url": "https://doi.org/10.4230/darts.10.2.18",
     "doi": "10.4230/darts.10.2.18",
     "typeLabel": "Journal article",
-    "image": "./images/aiml2020small.png",
+    "image": "./images/paper-icon.png",
     "topics": [
       "Compiling",
       "Arrays"
@@ -441,10 +441,10 @@
     "school": "",
     "series": "",
     "note": "",
-    "url": "",
+    "url": "https://doi.org/10.1145/3633769",
     "doi": "10.1145/3633769",
     "typeLabel": "Journal article",
-    "image": "./images/aiml2020small.png",
+    "image": "./images/paper-icon.png",
     "topics": [
       "Local-first",
       "Programming Model"
@@ -475,10 +475,10 @@
     "school": "",
     "series": "",
     "note": "",
-    "url": "",
+    "url": "https://doi.org/10.18653/v1/2024.findings-acl.939",
     "doi": "10.18653/v1/2024.findings-acl.939",
     "typeLabel": "Conference paper",
-    "image": "./images/aiml2020small.png",
+    "image": "./images/paper-icon.png",
     "topics": [
       "Code LLMs",
       "Machine Learning"
@@ -509,10 +509,10 @@
     "school": "",
     "series": "",
     "note": "",
-    "url": "",
+    "url": "https://doi.org/10.4230/lipics.ecoop.2024.33",
     "doi": "10.4230/lipics.ecoop.2024.33",
     "typeLabel": "Conference paper",
-    "image": "./images/aiml2020small.png",
+    "image": "./images/paper-icon.png",
     "topics": [
       "Compiling",
       "Arrays"
@@ -543,10 +543,10 @@
     "school": "",
     "series": "",
     "note": "",
-    "url": "",
+    "url": "https://doi.org/10.1007/978-3-031-57267-8_14",
     "doi": "10.1007/978-3-031-57267-8_14",
     "typeLabel": "Conference paper",
-    "image": "./images/aiml2020small.png",
+    "image": "./images/paper-icon.png",
     "topics": [
       "Static Analysis",
       "Soundness"
@@ -576,10 +576,10 @@
     "school": "",
     "series": "",
     "note": "",
-    "url": "",
+    "url": "https://doi.org/10.1145/3678721.3686231",
     "doi": "10.1145/3678721.3686231",
     "typeLabel": "Conference paper",
-    "image": "./images/aiml2020small.png",
+    "image": "./images/paper-icon.png",
     "topics": [
       "Incrementalizing",
       "Functors"
@@ -609,10 +609,10 @@
     "school": "",
     "series": "",
     "note": "",
-    "url": "",
+    "url": "https://doi.org/10.1145/3639476.3639770",
     "doi": "10.1145/3639476.3639770",
     "typeLabel": "Conference paper",
-    "image": "./images/aiml2020small.png",
+    "image": "./images/paper-icon.png",
     "topics": [
       "AI",
       "Software Development"
@@ -644,10 +644,10 @@
     "school": "",
     "series": "",
     "note": "",
-    "url": "",
+    "url": "https://doi.org/10.1145/3650212.3652109",
     "doi": "10.1145/3650212.3652109",
     "typeLabel": "Conference paper",
-    "image": "./images/aiml2020small.png",
+    "image": "./images/paper-icon.png",
     "topics": [
       "Call Graphs",
       "Static Analysis"
@@ -681,10 +681,10 @@
     "school": "",
     "series": "",
     "note": "",
-    "url": "",
+    "url": "https://doi.org/10.1145/3650212.3652114",
     "doi": "10.1145/3650212.3652114",
     "typeLabel": "Conference paper",
-    "image": "./images/aiml2020small.png",
+    "image": "./images/paper-icon.png",
     "topics": [
       "Call Graphs",
       "Static Analysis"
@@ -716,10 +716,10 @@
     "school": "",
     "series": "",
     "note": "",
-    "url": "",
+    "url": "https://doi.org/10.1145/3691620.3696193",
     "doi": "10.1145/3691620.3696193",
     "typeLabel": "Conference paper",
-    "image": "./images/aiml2020small.png",
+    "image": "./images/paper-icon.png",
     "topics": [
       "Cross-language Analysis",
       "Static Analysis"
@@ -752,10 +752,10 @@
     "school": "",
     "series": "",
     "note": "",
-    "url": "",
+    "url": "https://doi.org/10.1109/saner60148.2024.00076",
     "doi": "10.1109/saner60148.2024.00076",
     "typeLabel": "Conference paper",
-    "image": "./images/aiml2020small.png",
+    "image": "./images/paper-icon.png",
     "topics": [
       "Static Analysis",
       "Error Chains"
@@ -787,10 +787,10 @@
     "school": "",
     "series": "",
     "note": "",
-    "url": "",
+    "url": "https://doi.org/10.4230/darts.9.2.11",
     "doi": "10.4230/darts.9.2.11",
     "typeLabel": "Journal article",
-    "image": "./images/aiml2020small.png",
+    "image": "./images/paper-icon.png",
     "topics": [
       "Local-first",
       "Programming Model"
@@ -821,10 +821,10 @@
     "school": "",
     "series": "",
     "note": "",
-    "url": "",
+    "url": "https://doi.org/10.4230/darts.9.2.17",
     "doi": "10.4230/darts.9.2.17",
     "typeLabel": "Journal article",
-    "image": "./images/aiml2020small.png",
+    "image": "./images/paper-icon.png",
     "topics": [
       "Effect Notation",
       "Programs"
@@ -855,10 +855,10 @@
     "school": "",
     "series": "",
     "note": "",
-    "url": "",
+    "url": "https://doi.org/10.4230/darts.9.2.26",
     "doi": "10.4230/darts.9.2.26",
     "typeLabel": "Journal article",
-    "image": "./images/aiml2020small.png",
+    "image": "./images/paper-icon.png",
     "topics": [
       "Replicated Data Types",
       "Local-first"
@@ -891,10 +891,10 @@
     "school": "",
     "series": "",
     "note": "",
-    "url": "",
+    "url": "https://doi.org/10.1145/3604629",
     "doi": "10.1145/3604629",
     "typeLabel": "Journal article",
-    "image": "./images/aiml2020small.png",
+    "image": "./images/paper-icon.png",
     "topics": [
       "Tierless Language",
       "Decentralized Applications"
@@ -926,10 +926,10 @@
     "school": "",
     "series": "",
     "note": "",
-    "url": "",
+    "url": "https://doi.org/10.4230/lipics.ecoop.2023.12",
     "doi": "10.4230/lipics.ecoop.2023.12",
     "typeLabel": "Conference paper",
-    "image": "./images/aiml2020small.png",
+    "image": "./images/paper-icon.png",
     "topics": [
       "Local-first",
       "Programming Model"
@@ -960,10 +960,10 @@
     "school": "",
     "series": "",
     "note": "",
-    "url": "",
+    "url": "https://doi.org/10.4230/lipics.ecoop.2023.14",
     "doi": "10.4230/lipics.ecoop.2023.14",
     "typeLabel": "Conference paper",
-    "image": "./images/aiml2020small.png",
+    "image": "./images/paper-icon.png",
     "topics": [
       "Replicated Data Types",
       "Local-first"
@@ -994,10 +994,10 @@
     "school": "",
     "series": "",
     "note": "",
-    "url": "",
+    "url": "https://doi.org/10.4230/lipics.ecoop.2023.25",
     "doi": "10.4230/lipics.ecoop.2023.25",
     "typeLabel": "Conference paper",
-    "image": "./images/aiml2020small.png",
+    "image": "./images/paper-icon.png",
     "topics": [
       "Effect Notation",
       "Programs"
@@ -1027,10 +1027,10 @@
     "school": "",
     "series": "",
     "note": "",
-    "url": "",
+    "url": "https://doi.org/10.1145/3605156.3606456",
     "doi": "10.1145/3605156.3606456",
     "typeLabel": "Conference paper",
-    "image": "./images/aiml2020small.png",
+    "image": "./images/paper-icon.png",
     "topics": [
       "Rewrite Strategies",
       "Automatic Differentiation"
@@ -1062,10 +1062,10 @@
     "school": "",
     "series": "",
     "note": "",
-    "url": "",
+    "url": "https://doi.org/10.1109/msr59073.2023.00050",
     "doi": "10.1109/msr59073.2023.00050",
     "typeLabel": "Conference paper",
-    "image": "./images/aiml2020small.png",
+    "image": "./images/paper-icon.png",
     "topics": [
       "Go",
       "Unsafe Usages"
@@ -1101,10 +1101,10 @@
     "school": "",
     "series": "",
     "note": "",
-    "url": "",
+    "url": "https://doi.org/10.1109/secdev56634.2023.00015",
     "doi": "10.1109/secdev56634.2023.00015",
     "typeLabel": "Conference paper",
-    "image": "./images/aiml2020small.png",
+    "image": "./images/paper-icon.png",
     "topics": [
       "Crypto-API",
       "Tool Support"
@@ -1135,10 +1135,10 @@
     "school": "",
     "series": "",
     "note": "",
-    "url": "",
+    "url": "https://doi.org/10.1109/saner56733.2023.00085",
     "doi": "10.1109/saner56733.2023.00085",
     "typeLabel": "Conference paper",
-    "image": "./images/aiml2020small.png",
+    "image": "./images/paper-icon.png",
     "topics": [
       "WebAssembly",
       "Static Analysis"
@@ -1168,10 +1168,10 @@
     "school": "",
     "series": "",
     "note": "",
-    "url": "",
+    "url": "https://doi.org/10.1109/saner56733.2023.00096",
     "doi": "10.1109/saner56733.2023.00096",
     "typeLabel": "Conference paper",
-    "image": "./images/aiml2020small.png",
+    "image": "./images/paper-icon.png",
     "topics": [
       "ASTs",
       "Code Completion"
@@ -1204,10 +1204,10 @@
     "school": "",
     "series": "",
     "note": "",
-    "url": "",
+    "url": "https://doi.org/10.4230/darts.8.2.16",
     "doi": "10.4230/darts.8.2.16",
     "typeLabel": "Journal article",
-    "image": "./images/aiml2020small.png",
+    "image": "./images/paper-icon.png",
     "topics": [
       "Tierless Language",
       "Decentralized Applications"
@@ -1239,10 +1239,10 @@
     "school": "",
     "series": "",
     "note": "",
-    "url": "",
+    "url": "https://doi.org/10.1145/3498701",
     "doi": "10.1145/3498701",
     "typeLabel": "Conference paper",
-    "image": "./images/aiml2020small.png",
+    "image": "./images/paper-icon.png",
     "topics": [
       "Dependently-typed",
       "Data Plane Programming"
@@ -1275,10 +1275,10 @@
     "school": "",
     "series": "",
     "note": "",
-    "url": "",
+    "url": "https://doi.org/10.4230/lipics.ecoop.2022.35",
     "doi": "10.4230/lipics.ecoop.2022.35",
     "typeLabel": "Conference paper",
-    "image": "./images/aiml2020small.png",
+    "image": "./images/paper-icon.png",
     "topics": [
       "Tierless Language",
       "Decentralized Applications"
@@ -1309,10 +1309,10 @@
     "school": "",
     "series": "",
     "note": "",
-    "url": "",
+    "url": "https://doi.org/10.18420/se2022-ws-027",
     "doi": "10.18420/se2022-ws-027",
     "typeLabel": "Conference paper",
-    "image": "./images/aiml2020small.png",
+    "image": "./images/paper-icon.png",
     "topics": [
       "Immutability",
       "Static Analysis"
@@ -1343,10 +1343,10 @@
     "school": "",
     "series": "",
     "note": "",
-    "url": "",
+    "url": "https://doi.org/10.1145/3567512.3567526",
     "doi": "10.1145/3567512.3567526",
     "typeLabel": "Conference paper",
-    "image": "./images/aiml2020small.png",
+    "image": "./images/paper-icon.png",
     "topics": [
       "APIs",
       "Misuse-resilient"
@@ -1378,10 +1378,10 @@
     "school": "",
     "series": "",
     "note": "",
-    "url": "",
+    "url": "https://doi.org/10.1109/trustcom56396.2022.00051",
     "doi": "10.1109/trustcom56396.2022.00051",
     "typeLabel": "Conference paper",
-    "image": "./images/aiml2020small.png",
+    "image": "./images/paper-icon.png",
     "topics": [
       "Crypto-misuses",
       "Static Analysis"
@@ -1415,7 +1415,7 @@
     "url": "https://arxiv.org/abs/2605.05282",
     "doi": "",
     "typeLabel": "Preprint",
-    "image": "./images/aiml2020small.png",
+    "image": "./images/paper-icon.png",
     "topics": [
       "Code Translation",
       "Semantic Evaluation",

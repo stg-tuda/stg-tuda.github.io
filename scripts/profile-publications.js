@@ -7,6 +7,7 @@
   const DEFAULT_EMBED_SOURCE = '../../build/publications-data.js';
   const DEFAULT_DISPLAY_LIMIT = 10;
   const DISPLAY_LIMIT_OPTIONS = [10, 20, 50];
+  const FALLBACK_PUBLICATION_IMAGE = 'images/paper-icon.png';
   const containerStates = new WeakMap();
   let cachedPublications = null;
   let publicationsPromise = null;
@@ -237,17 +238,15 @@
       card.rel = 'noopener';
     }
 
-    const imageSrc = resolveAssetPath(publication.image, config.imageBase);
-    if (imageSrc) {
-      const figure = document.createElement('div');
-      figure.className = 'publication-card-figure';
-      const img = document.createElement('img');
-      img.src = imageSrc;
-      img.alt = publication.title || 'Publication artwork';
-      img.loading = 'lazy';
-      figure.appendChild(img);
-      card.appendChild(figure);
-    }
+    const imageSrc = resolveAssetPath(FALLBACK_PUBLICATION_IMAGE, config.imageBase);
+    const figure = document.createElement('div');
+    figure.className = 'publication-card-figure';
+    const img = document.createElement('img');
+    img.src = imageSrc;
+    img.alt = publication.title || 'Publication artwork';
+    img.loading = 'lazy';
+    figure.appendChild(img);
+    card.appendChild(figure);
 
     const content = document.createElement('div');
     content.className = 'publication-card-content';

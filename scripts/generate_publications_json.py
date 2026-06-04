@@ -15,7 +15,7 @@ BIB_PATH = REPO_ROOT / "references.bib"
 JSON_OUTPUT = REPO_ROOT / "build" / "publications.json"
 DATA_JS_OUTPUT = REPO_ROOT / "build" / "publications-data.js"
 IMAGES_DIR = REPO_ROOT / "images"
-DEFAULT_IMAGE = "aiml2020small.png"
+DEFAULT_IMAGE = "paper-icon.png"
 IMAGE_EXTENSIONS = (".png", ".jpg", ".jpeg", ".webp", ".svg", ".gif")
 
 

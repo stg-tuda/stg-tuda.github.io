@@ -7,9 +7,11 @@
     : (siteContent.newsHighlights || []);
   const embeddedPublications = Array.isArray(window.STG_PUBLICATIONS)
     ? window.STG_PUBLICATIONS
-    : [];
+    : (Array.isArray(window.AIML_PUBLICATIONS)
+      ? window.AIML_PUBLICATIONS
+      : []);
   const publicationImageBase = document.body?.dataset?.publicationImageBase || './images/';
-  const FALLBACK_PUBLICATION_IMAGE = 'stg2020small.png';
+  const FALLBACK_PUBLICATION_IMAGE = 'paper-icon.png';
   const PUBLICATION_IMAGE_EXTENSIONS = ['.png', '.jpg', '.jpeg', '.webp', '.svg'];
 
   const topicClusters = {
@@ -92,40 +94,7 @@
 
   const PublicationImages = {
     buildCandidates(publication = {}) {
-      const explicit = typeof publication.image === 'string' && publication.image.trim().length
-        ? publication.image.trim()
-        : '';
-      if (explicit) {
-        if (explicit.startsWith('http://') || explicit.startsWith('https://') || explicit.startsWith('//') || explicit.startsWith('/')) {
-          return Array.from(new Set([
-            explicit,
-            resolvePublicationImagePath(FALLBACK_PUBLICATION_IMAGE)
-          ]));
-        }
-        if (/\.(png|jpe?g|webp|svg)$/i.test(explicit)) {
-          const resolved = resolvePublicationImagePath(explicit);
-          return Array.from(new Set([
-            resolved,
-            resolvePublicationImagePath(FALLBACK_PUBLICATION_IMAGE)
-          ]));
-        }
-      }
-
-      const slugSource = explicit || publication.cite || '';
-      if (!slugSource) {
-        return [resolvePublicationImagePath(FALLBACK_PUBLICATION_IMAGE)];
-      }
-
-      if (slugSource.startsWith('http://') || slugSource.startsWith('https://') || slugSource.startsWith('//') || slugSource.startsWith('/')) {
-        return Array.from(new Set([
-          slugSource,
-          resolvePublicationImagePath(FALLBACK_PUBLICATION_IMAGE)
-        ]));
-      }
-
-      const candidates = PUBLICATION_IMAGE_EXTENSIONS.map((extension) => resolvePublicationImagePath(`${slugSource}${extension}`));
-      candidates.push(resolvePublicationImagePath(FALLBACK_PUBLICATION_IMAGE));
-      return Array.from(new Set(candidates));
+      return [resolvePublicationImagePath(FALLBACK_PUBLICATION_IMAGE)];
     },
 
     createFigure(publication = {}) {
@@ -923,8 +892,8 @@
 
       const embedded = getEmbeddedPublications();
 
-      if (window.location.protocol === 'file:' && embedded.length) {
-        setPublications(embedded, 'Offline preview (embedded data)');
+      if (embedded.length) {
+        setPublications(embedded, 'Embedded publications');
         return;
       }
 
@@ -935,17 +904,9 @@
             setPublications(data);
             return;
           }
-          if (embedded.length) {
-            setPublications(embedded, 'Showing embedded publications');
-            return;
-          }
           throw new Error('No publications found');
         })
         .catch(() => {
-          if (embedded.length) {
-            setPublications(embedded, 'Offline preview (embedded data)');
-            return;
-          }
           state.all = [];
           state.filtered = [];
           state.notice = 'Publications unavailable.';

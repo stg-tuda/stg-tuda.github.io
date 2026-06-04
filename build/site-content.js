@@ -9,8 +9,8 @@ window.STG_SITE_CONTENT = {
     { "value": "Active research", "label": "Code intelligence & programming models", "icon": "🛠️", "colClass": "col-12 col-md-4" }
   ],
   "focusAreas": [
-    { "title": "AI & Software Engineering", "description": "Applying artificial intelligence techniques to software engineering tasks including code generation, analysis, and testing.", "image": "./images/themes/ai4se-wide.png", "link": "#", "colClass": "col-md-6 col-xl-6" },
-    { "title": "Programming Language Design", "description": "Designing and implementing programming languages with advanced features for modern software development.", "image": "./images/themes/pldi.jpg", "link": "#", "colClass": "col-md-6 col-xl-6" },
+    { "title": "AI & Software Engineering", "description": "Applying artificial intelligence techniques to software engineering tasks including code generation, analysis, and testing.", "image": "./images/themes/ai4se-wide.png", "colClass": "col-md-6 col-xl-6" },
+    { "title": "Programming Language Design", "description": "Designing and implementing programming languages with advanced features for modern software development.", "image": "./images/themes/pldi.jpg", "colClass": "col-md-6 col-xl-6" },
   ],
   "currentTeaching": [
     {
