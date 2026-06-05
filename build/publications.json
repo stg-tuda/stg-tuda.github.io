@@ -1427,5 +1427,32 @@
       "code-generation"
     ],
     "position": 40
+  },
+  {
+    "cite": "DBLP:journals/corr/abs-2605-03689",
+    "title": "Deep Graph-Language Fusion for Structure-Aware Code Generation",
+    "authors": [
+      "Mert Tiftikci",
+      "Amir Molzam Sharifloo",
+      "Mira Mezini"
+    ],
+    "year": "2026",
+    "yearDisplay": "2026",
+    "journal": "",
+    "booktitle": "FORGE",
+    "publisher": "",
+    "howpublished": "",
+    "institution": "",
+    "organization": "",
+    "school": "",
+    "series": "",
+    "note": "",
+    "url": "https://doi.org/10.48550/arXiv.2605.03689",
+    "doi": "10.48550/ARXIV.2605.03689",
+    "typeLabel": "Journal article",
+    "image": "./images/paper-icon.png",
+    "topics": [],
+    "topicsNormalized": [],
+    "position": 41
   }
 ]
