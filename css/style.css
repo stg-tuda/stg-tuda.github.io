@@ -1312,6 +1312,7 @@ body.has-fixed-header main {
 .research-body p {
   margin: 0;
   color: #516373;
+  white-space: pre-wrap;
 }
 
 .thesis-card {

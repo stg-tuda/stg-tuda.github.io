@@ -8,8 +8,8 @@ window.STG_SITE_CONTENT = {
     { "value": "Active research", "label": "Code intelligence & programming models", "icon": "🛠️", "colClass": "col-12 col-md-4" }
   ],
   "focusAreas": [
-    { "title": "AI & Software Engineering", "description": "Applying artificial intelligence techniques to software engineering tasks including code generation, analysis, and testing.", "image": "./images/themes/ai4se-wide.png", "colClass": "col-md-6 col-xl-6" },
-    { "title": "Programming Language Design", "description": "Designing and implementing programming languages with advanced features for modern software development.", "image": "./images/themes/pldi.jpg", "colClass": "col-md-6 col-xl-6" },
+    { "title": "AI/Software Engineering", "description": "We explore how advances in AI and software engineering can mutually reinforce and enhance the software development process. Current projects:\n• SSM Native (https://ssm-native.github.io/)\n• SecureCoder (https://secure-coder.github.io/)", "image": "./images/ai4se.png",  "colClass": "col-md-6 col-xl-6" },
+    { "title": "Programming Languages", "description": "We design novel methods and tools for programming languages to improve reliability and efficiency.", "image": "./images/themes/pldi.jpg", "colClass": "col-md-6 col-xl-6" },
   ],
   "currentTeaching": [
     {
@@ -118,13 +118,13 @@ window.STG_SITE_CONTENT = {
     {
       "id": "admin",
       "title": "Administrative & Technical Staff",
-      "description": "Administrative, project and technical staff supporting the group.",
+ //     "description": "Administrative, project and technical staff supporting the group.",
       "defaultVisible": true,
       "people": [
-        { "id": "eberghoff", "name": "Esther Berghoff", "role": "Administration", "focus": "ATHENE Project Manager" },
-        { "id": "crossmann", "name": "Claudia Roßmann", "role": "Administration", "focus": "Administrative Staff" },
-        { "id": "bscheet", "name": "Boris Scheet", "role": "Technical Staff", "focus": "Technical Support" },
-        { "id": "pmoeller", "name": "Pamela Möller", "role": "Administration", "focus": "Administrative Staff" }
+        { "id": "crossmann", "name": "Claudia Roßmann", "focus": "Assistant" },
+        { "id": "pmoeller", "name": "Pamela Möller", "focus": "Assistant" },
+        { "id": "bscheet", "name": "Boris Scheet", "focus": "Technical Support" },
+        { "id": "eberghoff", "name": "Esther Berghoff", "focus": "ATHENE Project Manager" }
       ]
     },
     {
@@ -139,7 +139,7 @@ window.STG_SITE_CONTENT = {
     {
       "id": "postdocs",
       "title": "Postdoctoral Researchers",
-      "description": "Postdoctoral researchers conducting advanced research.",
+//      "description": "Postdoctoral researchers conducting advanced research.",
       "defaultVisible": true,
       "people": [
         { "id": "rmogk", "name": "Dr. Ragnar Mogk", "focus": "Programming Languages" },
@@ -151,7 +151,7 @@ window.STG_SITE_CONTENT = {
     {
       "id": "phd",
       "title": "Doctoral Researchers",
-      "description": "PhD candidates working on their dissertations.",
+      //"description": "PhD candidates working on their dissertations.",
       "defaultVisible": true,
       "people": [
         { "id": "pmueller", "name": "Patrick Müller", "role": "Doctoral Researcher"},

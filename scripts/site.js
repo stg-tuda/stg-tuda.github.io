@@ -51,6 +51,57 @@
       const fallback = String(value).match(/(\d{4})/);
       return fallback ? new Date(Number(fallback[1]), 0, 1).getTime() : 0;
     },
+    escapeHtml(value = '') {
+      return String(value)
+        .replace(/&/g, '&amp;')
+        .replace(/</g, '&lt;')
+        .replace(/>/g, '&gt;')
+        .replace(/"/g, '&quot;')
+        .replace(/'/g, '&#39;');
+    },
+    linkify(value = '') {
+      const urlPattern = /(https?:\/\/[^\s]+)/g;
+      return String(value).replace(urlPattern, (match) => {
+        const href = Utils.escapeHtml(match);
+        return `<a href="${href}" target="_blank" rel="noopener">${href}</a>`;
+      });
+    },
+    formatDescription(text = '') {
+      const lines = String(text).split(/\r?\n/);
+      const html = [];
+      let inList = false;
+
+      const closeList = () => {
+        if (inList) {
+          html.push('</ul>');
+          inList = false;
+        }
+      };
+
+      lines.forEach((rawLine) => {
+        const line = rawLine.trim();
+        if (!line) {
+          closeList();
+          return;
+        }
+
+        const listMatch = line.match(/^[•\-*]\s+(.*)$/);
+        if (listMatch) {
+          if (!inList) {
+            html.push('<ul>');
+            inList = true;
+          }
+          html.push(`<li>${Utils.linkify(Utils.escapeHtml(listMatch[1]))}</li>`);
+          return;
+        }
+
+        closeList();
+        html.push(`<p>${Utils.linkify(Utils.escapeHtml(line))}</p>`);
+      });
+
+      closeList();
+      return html.join('');
+    },
     sortNews(items = []) {
       return [...items].sort((a, b) => Utils.toNewsTimestamp(b?.date) - Utils.toNewsTimestamp(a?.date));
     },
@@ -218,7 +269,7 @@
         const body = Utils.createElement('div', { className: 'research-body' });
         body.append(
           Utils.createElement('h3', { text: area.title || '' }),
-          Utils.createElement('p', { text: area.description || '' })
+          Utils.createElement('div', { className: 'research-description', html: Utils.formatDescription(area.description || '') })
         );
 
         card.append(imageWrapper, body);
